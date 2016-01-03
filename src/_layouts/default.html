@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	{% include head.html %}
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+	  <div class="mdl-layout__drawer">
+	  	{% include sidebar.html %}
+	  </div>
+	  <main class="mdl-layout__content">
+	    <div class="page-content">
+	    	<div class="mdl-grid">
+	    		<div class="mdl-cell mdl-cell--12-col" id="about">
+	    			{% include about.html %}
+	    		</div>
+	    		<div class="mdl-cell mdl-cell--12-col" id="academics">
+	    			{% include academics.html %}
+	    		</div>
+	    		<div class="mdl-cell mdl-cell--12-col" id="portfolio">
+	    			<span class="mdl-layout-title subtitle portfolio-title">Portfolio</span>
+	    		</div>
+	    		{{ content }}
+	    		<div class="mdl-cell mdl-cell--12-col" id="links">
+	    			{% include links.html %}
+	    		</div>
+			</div>
+	    </div>
+	  </main>
+	</div>
+  </body>
+</html>

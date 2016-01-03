@@ -1,0 +1,47 @@
+- name: Read Out Loud
+  link: projects/read-out-loud
+  thumbnail: ./static/img/thumbnails/rol.jpg
+
+- name: Digital Certificates
+  link: projects/digital-certificates
+  thumbnail: ./static/img/thumbnails/certificates.jpg
+
+- name: Skypephone
+  link: projects/skypephone
+  thumbnail: ./static/img/thumbnails/skypephone.jpg
+
+- name: Introbot
+  link: projects/introbot
+  thumbnail: ./static/img/thumbnails/introbot.jpg
+
+- name: Lexicon of Inagural Speeches
+  link: projects/lexicon-of-inagural-speeches
+  thumbnail: ./static/img/thumbnails/speeches.jpg
+
+- name: Robotic Crab Toy
+  link: projects/robotic-crab-toy
+  thumbnail: ./static/img/thumbnails/robotic-crab-toy.jpg
+
+- name: Turntube.tv
+  link: projects/turntube-tv
+  thumbnail: ./static/img/thumbnails/turntube-tv.jpg
+
+- name: Thank-a-teacher.org
+  link: projects/thank-a-teacher
+  thumbnail: ./static/img/thumbnails/thank-a-teacher.jpg
+
+- name: Fountain Audio Visualizer
+  link: projects/fountain-audio-visualizer
+  thumbnail: ./static/img/thumbnails/fountain-audio-visualizer.jpg
+
+- name: Moozic Map
+  link: projects/moozic-map
+  thumbnail: ./static/img/thumbnails/moozic-map.jpg
+
+- name: Curriculum Github
+  link: projects/curriculum-github
+  thumbnail: ./static/img/thumbnails/curriculum-github.jpg
+
+- name: Elevator Navigator
+  link: projects/elevator-navigator
+  thumbnail: ./static/img/thumbnails/elevator-navigator.jpg

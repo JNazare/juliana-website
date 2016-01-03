@@ -1,0 +1,135 @@
+/* FONTS */
+
+@font-face {
+  font-family: Neue Haas Grotesk Light;
+  font-weight: 350;
+  src: url("../fonts/NHaasGroteskDSPro-35XLt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk;
+  font-weight: 550;
+  src: url("../fonts/NHaasGroteskDSPro-55Rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Bold;
+  font-weight: 750;
+  src: url("../fonts/NHaasGroteskDSPro-75Bd.otf") format("opentype");
+}
+
+
+/* GLOBAL STYLES */
+
+body{
+	font-family: Neue Haas Grotesk Light, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #000;
+}
+
+hr{
+	border-top: dotted 1px;
+}
+
+a,
+a:hover,
+a:focus{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  text-decoration: underline;
+}
+
+a.not-underlined:hover, a.not-underlined:focus{
+  text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+ul > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+span.mdl-layout-title {
+	font-weight: bold;
+	font-family: Neue Haas Grotesk Bold, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+span.subtitle{
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+/* DEFAULT TEMPLATE STYLES */
+
+span.portfolio-title{
+	margin-bottom: 5px;
+}
+
+span.links-title{
+	margin-top: 35px;
+}
+
+div.last-section{
+	margin-top: 24px;
+}
+
+
+/* SIDEBAR STYLES */
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+	color: #000;
+	font-family: Neue Haas Grotesk Light, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 14px;
+}
+
+img.headshot{
+	margin-top: 55px;
+}
+
+
+span.top-border{
+	margin-top: 40px;
+}
+
+div.email{
+	margin-top: 30px;
+	font-size: 10px;
+	padding: 16px;
+	padding-left: 40px;
+	color: #888;
+}
+
+
+/* PORTFOLIO STYLES */
+
+.project-card-image.mdl-card {
+  width: 100%;
+}
+
+.project-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.project-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* PROJECT PAGE STYLES */
+
+span.project-title{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+

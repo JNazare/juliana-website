@@ -1,0 +1,17 @@
+about: 
+  content: 
+    I am a master's student in the MIT Media Lab's [Lifelong Kindergarten Group](http://llk.media.mit.edu) and an alum of [Olin College of Engineering](http://olin.edu), where I studied electrical and computer engineering. Before coming to the Media Lab, I worked part-time at MIT Lincoln Labs in the Human Language Technology Group and was a Technical Associate at Startup Institute Boston. I am interested in using computer science to build educational experiences that help people learn about themselves, their communities, and the world around them.
+
+academics: 
+  content: 
+    Bacon ipsum <a class="underlined" href="">dolor</a> amet fatback sirloin corned beef pastrami pancetta turkey biltong sausage beef Doner cupim jerky, brisket jowl swine kielbasa venison cow ball tip short loin pork belly turducken corned beef andouille. T-bone bresaola chicken picanha. Ball tip turducken kevin capicola pork chop fatback pastrami venison prosciutto spare ribs.
+
+links:
+  - name: JNazare on Github
+    url: http://github.com/jnazare 
+
+  - name: JulianaNazare on Twitter
+    url: http://twitter.com/juliananazare
+
+  - name: LinkedIn Profile
+    url: http://linkedin.com/in/juliananazare

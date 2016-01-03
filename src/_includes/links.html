@@ -1,0 +1,8 @@
+<span class="mdl-layout-title subtitle links-title">Links</span>
+<ul class="links-card">
+	{% for link in site.data.sections.links %}
+	<li>
+		<a href="{{ link.url }}">{{ link.name }}</a>
+	</li>
+	{% endfor %}
+</ul>
