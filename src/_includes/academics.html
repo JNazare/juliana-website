@@ -1,4 +1,39 @@
 <span class="mdl-layout-title subtitle">Academics</span>
-<p>
-	{{ site.data.sections.academics.content | markdownify}}
-</p>
+<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+  <div class="mdl-tabs__tab-bar">
+      <a href="#research-panel" class="mdl-tabs__tab not-underlined is-active">Research</a>
+      <a href="#teaching-panel" class="mdl-tabs__tab not-underlined">Teaching Experience</a>
+      <a href="#more-panel" class="mdl-tabs__tab not-underlined">More...</a>
+  </div>
+
+  <div class="mdl-tabs__panel is-active" id="research-panel">
+    <p>
+        {{ site.data.sections.academics.research | markdownify}}
+    </p>
+  </div>
+  <div class="mdl-tabs__panel" id="teaching-panel">
+    <p></p>
+    {% for course in site.data.sections.academics.teaching %}
+        <div class="mdl-cell mdl-cell--12-col inside-cell">
+            <p>
+                <span class="bold-font">{{ course.name }}</span> - {{ course.location }}
+                <br>
+                {{ course.date }}
+                <br>
+                {{ course.description }}
+            </p>
+        </div>
+    {% endfor %}
+  </div>
+  <div class="mdl-tabs__panel" id="more-panel">
+    <p></p>
+    <p> 
+        For more information on my research, please check out the following:
+    </p>
+    <ul>
+        {% for piece in site.data.sections.academics.more %}
+            <li> {{ piece.description }} [<a href="{{piece.url}}">link</a>] </li>
+        {% endfor %}
+    </ul>
+  </div>
+</div>

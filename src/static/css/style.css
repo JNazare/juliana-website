@@ -30,10 +30,14 @@ hr{
 	border-top: dotted 1px;
 }
 
+a{
+	color: rgb(63,81,181);
+}
+
 a,
 a:hover,
 a:focus{
-  color: #000;
+  /*color: rgba(0,0,0,.54);*/
   text-decoration: none;
 }
 
@@ -43,6 +47,10 @@ a:hover, a:focus{
 
 a.not-underlined:hover, a.not-underlined:focus{
   text-decoration: none;
+}
+
+a.underlined{
+  text-decoration: underline;
 }
 
 ul{
@@ -81,6 +89,13 @@ div.inside-cell{
 	margin-right: 0px;
 }
 
+/*.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+	background: #000;
+}
+
+.mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple{
+	background: #000;
+}*/
 
 /* DEFAULT TEMPLATE STYLES */
 
