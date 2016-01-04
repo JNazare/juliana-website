@@ -6,8 +6,8 @@
   link: projects/digital-certificates
   thumbnail: ./static/img/thumbnails/digital-certificates.jpg
 
-- name: Skypephone
-  link: projects/skypephone
+- name: How to Make (Almost) Anything
+  link: projects/htmaa
   thumbnail: ./static/img/thumbnails/skypephone.jpg
 
 - name: Introbot
