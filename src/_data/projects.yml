@@ -1,10 +1,10 @@
 - name: Read Out Loud
   link: projects/read-out-loud
-  thumbnail: ./static/img/thumbnails/rol.jpg
+  thumbnail: ./static/img/thumbnails/read-out-loud.jpg
 
 - name: Digital Certificates
   link: projects/digital-certificates
-  thumbnail: ./static/img/thumbnails/certificates.jpg
+  thumbnail: ./static/img/thumbnails/digital-certificates.jpg
 
 - name: Skypephone
   link: projects/skypephone
@@ -14,9 +14,9 @@
   link: projects/introbot
   thumbnail: ./static/img/thumbnails/introbot.jpg
 
-- name: Lexicon of Inagural Speeches
-  link: projects/lexicon-of-inagural-speeches
-  thumbnail: ./static/img/thumbnails/speeches.jpg
+- name: Lexicon of the Inaugural Speeches
+  link: projects/lexicon-of-the-inaugural-speeches
+  thumbnail: ./static/img/thumbnails/lexicon-of-the-inaugural-speeches.jpg
 
 - name: Robotic Crab Toy
   link: projects/robotic-crab-toy
