@@ -1,10 +1,10 @@
 about: 
   content: 
-    I am a master's student in the MIT Media Lab's [Lifelong Kindergarten Group](http://llk.media.mit.edu) and an alum of [Olin College of Engineering](http://olin.edu), where I studied electrical and computer engineering. I spent two years as a Technical Associate at [Startup Institute Boston](http://startupinstitute.com) and have interned at MIT Lincoln Laboratory in the [Human Language Technology Group](http://www.ll.mit.edu/mission/cybersec/HLT/HLT.html), Advanced Micro Devices, and [Mozaic Design](http://mozaic.in/). I am interested in using computer science to build educational experiences that help people learn about themselves, their communities, and the world around them.
+    I am a master's student in the MIT Media Lab's [Lifelong Kindergarten Group](http://llk.media.mit.edu) and an alum of [Olin College of Engineering](http://olin.edu), where I studied electrical and computer engineering. I worked as a Technical Associate at [Startup Institute Boston](http://startupinstitute.com) for two years and have interned at MIT Lincoln Laboratory in the [Human Language Technology Group](http://www.ll.mit.edu/mission/cybersec/HLT/HLT.html), Advanced Micro Devices (AMD), and [Mozaic Design](http://mozaic.in/). My interest is in using computer science to build educational experiences that help people learn about themselves, their communities, and the world around them.
 
 academics: 
   research: 
-    At the Media Lab, my research focuses on building tools to explore how technology can help adult learners improve their basic literacy and numeracy skills and create new pathways to employment. Tools I have built include [Read Out Loud](/projects/read-out-loud), an application to help parents who are learning English improve their vocabulary and pronunciation while reading with their children, and the [Media Lab Digital Certificates](/digital-certificates), a toolkit to create digitally-verifiable certificates using the Bitcoin blockchain.
+    At the Media Lab, my research focuses on building tools to explore how technology can help adult learners improve their basic literacy and numeracy skills and create new pathways to employment. Tools I have built include [Read Out Loud](/projects/read-out-loud), an application to help parents who are learning English improve their vocabulary and pronunciation while reading with their children, and the [Media Lab Digital Certificates](/projects/digital-certificates), a toolkit to create digitally-verifiable certificates using the Bitcoin blockchain.
   teaching:
     - date: January, 2015
       name: Lifelong Learning Workshop
@@ -39,18 +39,13 @@ academics:
 links:
   - name: View / download my resumé
     url: https://www.dropbox.com/s/qgknbcjd1qqxbuw/resume.pdf
-
   - name: JNazare on Github
     url: http://github.com/jnazare 
-
   - name: JulianaNazare on Twitter
     url: http://twitter.com/juliananazare
-
   - name: Linkedin Profile
     url: http://linkedin.com/in/juliananazare
-
   - name: Adventures on Instagram
     url: https://www.instagram.com/jules065/
-
   - name: Contact me via email at juliana [at] media.mit.edu
     url: ""
