@@ -1,9 +1,10 @@
 ---
 layout: project
 title: IntroBot
+date: January - May 2013
 ---
 
-IntroBot is a half-semester project that employed data mining, parsing, natural language processing, and remote API integration to make a bot that brings professional introductions, usually made on LinkedIn (a professional social network), to Twitter, (a unidirectional communication network), where interacting with complete strangers is acceptable. Shown below are two tweets to Introbot and Introbot's replies with introductions.
+IntroBot is a project that employed data mining, parsing, natural language processing, and remote API integration to make a bot that brings professional introductions, usually made on LinkedIn (a professional social network), to Twitter, (a unidirectional communication network), where interacting with complete strangers is acceptable. Shown below are two tweets to Introbot and Introbot's replies with introductions.
 
 <center><img src="../static/img/project-images/introducemeto.jpg" width="80%"></center>
 

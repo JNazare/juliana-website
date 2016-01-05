@@ -34,6 +34,15 @@ a{
 	color: rgb(63,81,181);
 }
 
+h1, h2, h3, h4, h5, h6{
+	font-family: Neue Haas Grotesk Bold, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h2 {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
 a,
 a:hover,
 a:focus{
