@@ -98,11 +98,11 @@ div.inside-cell{
 	margin-right: 0px;
 }
 
-/*.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
-	background: #000;
+.mdl-tabs__tab {
+	text-transform: capitalize;
 }
 
-.mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple{
+/*.mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple{
 	background: #000;
 }*/
 
