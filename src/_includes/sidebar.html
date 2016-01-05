@@ -1,10 +1,16 @@
 <center>
-	<a href="/"><img class="headshot" src="../static/img/juliana.jpg" width="80%"></a>
+	<a href="{{site.data.settings.base_url}}/">
+		{% if page.location == "main" %}
+			<img class="headshot" src="./static/img/juliana.jpg" width="80%">
+		{% else %}
+			<img class="headshot" src="../static/img/juliana.jpg" width="80%">
+		{% endif %}
+	</a>
 </center>
 <nav class="mdl-navigation">
-	<a class="mdl-navigation__link not-underlined" href="/">About</a>
-	<a class="mdl-navigation__link not-underlined" href="/#academics">Academics</a>
-	<a class="mdl-navigation__link not-underlined" href="/#portfolio">Portfolio</a>
-	<a class="mdl-navigation__link not-underlined" href="/#links">Links</a>
+	<a class="mdl-navigation__link not-underlined" href="{{site.data.settings.base_url}}/">About</a>
+	<a class="mdl-navigation__link not-underlined" href="{{site.data.settings.base_url}}/#academics">Academics</a>
+	<a class="mdl-navigation__link not-underlined" href="{{site.data.settings.base_url}}/#portfolio">Portfolio</a>
+	<a class="mdl-navigation__link not-underlined" href="{{site.data.settings.base_url}}/#links">Links</a>
 </nav>
 <div class="email"> Juliana [at] media.mit.edu </div>
