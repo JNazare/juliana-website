@@ -7,4 +7,6 @@ As part of a 6-person team, I worked on creating Thank-A-Teacher.org, a webapp t
 
 Send a thank you note to a teacher on the live [thank-a-teacher.org](http://www.thank-a-teacher.org/) site.
 
-<center><img src="../static/img/project-images/thankateacherposter.jpg" width="70%"></center>
+Teammates: Sebastian Dziallas, Chase Kernan, Julian Ceipek, Chelsea Nayback, and Graham Hooton
+
+<center><img src="../static/img/project-images/thankateacherposter.jpg" width="50%"></center>
